@@ -5,7 +5,7 @@ export default function Index() {
   const eventDate = "2025-09-09T09:00:00";
 
   return (
-    <div className="min-h-screen bg-black relative overflow-hidden" style={{ width: '1440px', height: '908px' }}>
+    <div className="min-h-screen bg-black relative overflow-hidden mx-auto" style={{ width: '1440px', height: '908px', maxWidth: '100vw' }}>
       {/* Background overlay with gradient */}
       <div className="absolute inset-0 bg-black/85 z-0"></div>
       <div className="absolute left-0 bottom-0 w-full h-[267px] bg-gradient-to-t from-black/83 to-transparent z-0"></div>
