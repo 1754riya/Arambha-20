@@ -22,7 +22,7 @@ export default function Index() {
           </defs>
         </svg>
         <div className="absolute left-[4px] top-[36px] w-[313px] h-[47px] transform -rotate-90 text-black text-center font-inter text-[32px] font-bold leading-[47px]">
-          Price Pool: 1,35,000
+          Prize Pool: 1,35,000
         </div>
       </div>
 
@@ -69,13 +69,13 @@ export default function Index() {
         <div className="absolute left-0 top-0 w-[249px] h-[49px] font-inter text-[40px] font-bold bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent">
           AARAMBHA
         </div>
-        <div className="absolute left-[30px] top-[66px] w-[187px] h-[95px] text-white font-cairo text-[40px] font-semibold uppercase">
+        <div className="absolute left-[31px] top-[49px] w-[187px] h-[95px] text-white font-cairo text-[40px] font-semibold uppercase">
           BY IPS, IES
         </div>
       </div>
 
       {/* Quick links */}
-      <div className="absolute left-[647px] top-[133px] text-white font-cardo text-[25px] font-bold">
+      <div className="absolute left-[652px] top-[133px] text-white font-cardo text-[25px] font-bold">
         Quick links
       </div>
 
