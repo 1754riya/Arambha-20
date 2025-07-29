@@ -7,20 +7,20 @@ export default function Index() {
   return (
     <div className="min-h-screen w-full relative overflow-hidden bg-black">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2F5746955424264108be8a3fee58eacc7d%2F174210776cad43aebf9581abdff29006?format=webp&width=800)"
+          backgroundImage:
+            "url(https://cdn.builder.io/api/v1/image/assets%2F5746955424264108be8a3fee58eacc7d%2F174210776cad43aebf9581abdff29006?format=webp&width=800)",
         }}
       />
-      
+
       {/* Background overlays */}
       <div className="absolute inset-0 bg-black/85 z-0" />
       <div className="absolute left-0 bottom-0 w-full h-64 bg-gradient-to-t from-black/90 to-transparent z-0" />
 
       {/* Container for all content */}
       <div className="relative z-10 max-w-[1440px] mx-auto min-h-screen flex flex-col">
-        
         {/* Header Section */}
         <header className="flex justify-between items-start p-4 lg:p-6">
           {/* Left Logo */}
@@ -65,12 +65,28 @@ export default function Index() {
 
           {/* Navigation Line */}
           <div className="relative flex justify-center mb-2">
-            <svg width="995" height="24" viewBox="0 0 995 24" fill="none" className="max-w-full">
-              <path d="M0.452994 12L12 23.547L23.547 12L12 0.452994L0.452994 12ZM994.606 12L983.059 0.452994L971.512 12L983.059 23.547L994.606 12ZM12 12V14H983.059V12V10H12V12Z" fill="url(#paint0_radial_nav)"/>
+            <svg
+              width="995"
+              height="24"
+              viewBox="0 0 995 24"
+              fill="none"
+              className="max-w-full"
+            >
+              <path
+                d="M0.452994 12L12 23.547L23.547 12L12 0.452994L0.452994 12ZM994.606 12L983.059 0.452994L971.512 12L983.059 23.547L994.606 12ZM12 12V14H983.059V12V10H12V12Z"
+                fill="url(#paint0_radial_nav)"
+              />
               <defs>
-                <radialGradient id="paint0_radial_nav" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(497.53 12.5) scale(485.53 0.5)">
-                  <stop stopColor="#D08625"/>
-                  <stop offset="1" stopColor="#EDCD4B"/>
+                <radialGradient
+                  id="paint0_radial_nav"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(497.53 12.5) scale(485.53 0.5)"
+                >
+                  <stop stopColor="#D08625" />
+                  <stop offset="1" stopColor="#EDCD4B" />
                 </radialGradient>
               </defs>
             </svg>
@@ -105,7 +121,9 @@ export default function Index() {
 
           {/* Main Title */}
           <div className="text-4xl lg:text-[64px] font-cardo font-bold leading-tight bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent mb-8">
-            YOUNG ENTREPRENEURS'<br />BOOTCAMP
+            YOUNG ENTREPRENEURS'
+            <br />
+            BOOTCAMP
           </div>
 
           {/* Register Button */}
@@ -113,16 +131,22 @@ export default function Index() {
             <button className="px-8 py-3 lg:px-12 lg:py-4 rounded-lg bg-gradient-to-r from-[#805500] to-[#662200] shadow-[0_12px_24px_0_rgba(46,32,5,0.20)] backdrop-blur-[25px] text-white font-cardo text-lg lg:text-2xl font-bold tracking-wider">
               Register Now
             </button>
-            
+
             {/* Decorative lines */}
             <div className="absolute left-[-75px] top-1/2 transform -translate-y-1/2 hidden lg:block">
               <svg width="56" height="4" viewBox="0 0 56 4" fill="none">
-                <path d="M56.0089 0C56.0089 1.33333 56.0089 2.66667 56.0089 4C55.0754 3.96667 54.1419 3.93333 53.2085 3.9C36.4058 3.3 19.6031 2.7 2.80043 2.1C1.86694 2.06667 0.933467 2.03333 -1.52588e-05 2C0.933467 1.96667 1.86694 1.93333 2.80043 1.9C19.6031 1.3 36.4058 0.7 53.2085 0.1C54.1419 0.0666667 55.0754 0.0333333 56.0089 0Z" fill="#EDCD4B"/>
+                <path
+                  d="M56.0089 0C56.0089 1.33333 56.0089 2.66667 56.0089 4C55.0754 3.96667 54.1419 3.93333 53.2085 3.9C36.4058 3.3 19.6031 2.7 2.80043 2.1C1.86694 2.06667 0.933467 2.03333 -1.52588e-05 2C0.933467 1.96667 1.86694 1.93333 2.80043 1.9C19.6031 1.3 36.4058 0.7 53.2085 0.1C54.1419 0.0666667 55.0754 0.0333333 56.0089 0Z"
+                  fill="#EDCD4B"
+                />
               </svg>
             </div>
             <div className="absolute right-[-75px] top-1/2 transform -translate-y-1/2 hidden lg:block">
               <svg width="56" height="4" viewBox="0 0 56 4" fill="none">
-                <path d="M0 0C0 1.33333 0 2.66667 0 4C0.933482 3.96667 1.86696 3.93333 2.80045 3.9C19.6031 3.3 36.4058 2.7 53.2085 2.1C54.142 2.06667 55.0754 2.03333 56.0089 2C55.0754 1.96667 54.142 1.93333 53.2085 1.9C36.4058 1.3 19.6031 0.7 2.80045 0.1C1.86696 0.0666667 0.933482 0.0333333 0 0Z" fill="#EDCD4B"/>
+                <path
+                  d="M0 0C0 1.33333 0 2.66667 0 4C0.933482 3.96667 1.86696 3.93333 2.80045 3.9C19.6031 3.3 36.4058 2.7 53.2085 2.1C54.142 2.06667 55.0754 2.03333 56.0089 2C55.0754 1.96667 54.142 1.93333 53.2085 1.9C36.4058 1.3 19.6031 0.7 2.80045 0.1C1.86696 0.0666667 0.933482 0.0333333 0 0Z"
+                  fill="#EDCD4B"
+                />
               </svg>
             </div>
           </div>
@@ -138,15 +162,21 @@ export default function Index() {
           <div className="flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-12 px-4">
             {/* Location */}
             <div className="flex items-center gap-4">
-              <MapPin className="w-8 h-8 lg:w-14 lg:h-14 text-[#D08625] flex-shrink-0" strokeWidth={1.5} />
+              <MapPin
+                className="w-8 h-8 lg:w-14 lg:h-14 text-[#D08625] flex-shrink-0"
+                strokeWidth={1.5}
+              />
               <div className="text-white font-inter text-lg lg:text-2xl font-bold">
                 IPS Academy, A.B Road, Rajendra Nagar, Indore (M.P)
               </div>
             </div>
-            
+
             {/* Date */}
             <div className="flex items-center gap-4">
-              <Calendar className="w-8 h-8 lg:w-14 lg:h-14 text-[#D08625] flex-shrink-0" strokeWidth={1.5} />
+              <Calendar
+                className="w-8 h-8 lg:w-14 lg:h-14 text-[#D08625] flex-shrink-0"
+                strokeWidth={1.5}
+              />
               <div className="text-white font-inter text-lg lg:text-2xl font-bold">
                 9th-11th Sep 2025
               </div>
@@ -157,11 +187,18 @@ export default function Index() {
         {/* Side Badges */}
         <div className="absolute left-0 top-1/2 transform -translate-y-1/2 hidden lg:block">
           <svg width="57" height="398" viewBox="0 0 57 398" fill="none">
-            <path d="M0 0L57 26V373L0 398V0Z" fill="url(#paint0_radial_left)"/>
+            <path d="M0 0L57 26V373L0 398V0Z" fill="url(#paint0_radial_left)" />
             <defs>
-              <radialGradient id="paint0_radial_left" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(28.5 199) rotate(89.7042) scale(199 216.581)">
-                <stop stopColor="#EDCD4B"/>
-                <stop offset="0.75" stopColor="#D08625"/>
+              <radialGradient
+                id="paint0_radial_left"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(28.5 199) rotate(89.7042) scale(199 216.581)"
+              >
+                <stop stopColor="#EDCD4B" />
+                <stop offset="0.75" stopColor="#D08625" />
               </radialGradient>
             </defs>
           </svg>
@@ -172,11 +209,21 @@ export default function Index() {
 
         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 hidden lg:block">
           <svg width="57" height="398" viewBox="0 0 57 398" fill="none">
-            <path d="M57 0L0 26V373L57 398V0Z" fill="url(#paint0_radial_right)"/>
+            <path
+              d="M57 0L0 26V373L57 398V0Z"
+              fill="url(#paint0_radial_right)"
+            />
             <defs>
-              <radialGradient id="paint0_radial_right" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(28.5 199) rotate(90.2958) scale(199 216.581)">
-                <stop stopColor="#EDCD4B"/>
-                <stop offset="0.75" stopColor="#D08625"/>
+              <radialGradient
+                id="paint0_radial_right"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(28.5 199) rotate(90.2958) scale(199 216.581)"
+              >
+                <stop stopColor="#EDCD4B" />
+                <stop offset="0.75" stopColor="#D08625" />
               </radialGradient>
             </defs>
           </svg>
