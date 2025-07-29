@@ -222,7 +222,7 @@ export default function Index() {
       </div>
 
       {/* Event Details */}
-      <div className="absolute left-[142px] top-[890px] w-[1143px] h-[56px]">
+      <div className="absolute left-[142px] top-[810px] w-[1143px] h-[56px]">
         <div className="absolute left-0 top-0 w-[56px] h-[56px] flex justify-center items-center">
           <MapPin
             className="w-[56px] h-[56px] text-[#D08625]"
