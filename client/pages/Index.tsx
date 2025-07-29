@@ -69,7 +69,7 @@ export default function Index() {
         <div className="absolute left-0 top-0 w-[249px] h-[49px] font-inter text-[40px] font-bold bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent">
           AARAMBHA
         </div>
-        <div className="absolute left-[31px] top-[49px] w-[187px] h-[95px] text-white font-cairo text-[40px] font-semibold uppercase">
+        <div className="absolute left-[31px] top-[49px] w-[187px] h-[95px] text-white font-cairo text-[40px] font-semibold uppercase leading-none">
           BY IPS, IES
         </div>
       </div>
