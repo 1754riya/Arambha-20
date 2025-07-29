@@ -56,14 +56,15 @@ export default function Index() {
           </div>
         </header>
 
-        {/* Quick Links */}
-        <div className="text-center text-white font-cardo text-xl lg:text-2xl font-bold mb-4">
-          Quick links
-        </div>
+        {/* Navigation Section */}
+        <nav className="relative mb-8 px-4">
+          {/* Quick Links */}
+          <div className="text-center text-white font-cardo text-xl lg:text-2xl font-bold mb-6">
+            Quick links
+          </div>
 
-        {/* Navigation */}
-        <nav className="relative mb-8">
-          <div className="flex justify-center">
+          {/* Navigation Line and Items */}
+          <div className="relative flex justify-center">
             <svg width="995" height="24" viewBox="0 0 995 24" fill="none" className="max-w-full">
               <path d="M0.452994 12L12 23.547L23.547 12L12 0.452994L0.452994 12ZM994.606 12L983.059 0.452994L971.512 12L983.059 23.547L994.606 12ZM12 12V14H983.059V12V10H12V12Z" fill="url(#paint0_radial_nav)"/>
               <defs>
@@ -73,25 +74,25 @@ export default function Index() {
                 </radialGradient>
               </defs>
             </svg>
-          </div>
-          
-          {/* Navigation Items - Responsive */}
-          <div className="absolute inset-0 flex justify-center items-center">
-            <div className="flex flex-wrap justify-center gap-2 lg:gap-8 px-4">
-              <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent">
-                About Event
-              </div>
-              <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent">
-                What you'll get
-              </div>
-              <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent">
-                Eligibility & Program Fee
-              </div>
-              <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent">
-                Selection Process
-              </div>
-              <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent">
-                Deadlines
+
+            {/* Navigation Items positioned over the line */}
+            <div className="absolute inset-0 flex justify-center items-center">
+              <div className="flex flex-wrap justify-center items-center gap-2 lg:gap-16 px-4 lg:px-8">
+                <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
+                  About Event
+                </div>
+                <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
+                  What you'll get
+                </div>
+                <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
+                  Eligibility & Program Fee
+                </div>
+                <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
+                  Selection Process
+                </div>
+                <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
+                  Deadlines
+                </div>
               </div>
             </div>
           </div>
