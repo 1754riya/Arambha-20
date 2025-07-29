@@ -114,13 +114,11 @@ export default function Index() {
         EXPERIENCE HOW IT FEELS TO START-UP WHILE YOU ARE STILL IN SCHOOL.
       </div>
 
-      {/* Main title image */}
-      <div className="absolute left-[220px] top-[445px] w-[1000px] h-[134px]">
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F5746955424264108be8a3fee58eacc7d%2Fdb420c53c5744888b3efc1115a7443f8?format=webp&width=800"
-          alt="YOUNG ENTREPRENEURS' BOOTCAMP"
-          className="w-full h-full object-contain"
-        />
+      {/* Main title text */}
+      <div className="absolute left-[212px] top-[408px] w-[1016px] h-[134px] flex items-center justify-center">
+        <div className="text-center font-cardo text-[64px] font-bold leading-[67px] bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent">
+          YOUNG ENTREPRENEURS'<br />BOOTCAMP
+        </div>
       </div>
 
       {/* Register button with decorative lines */}
