@@ -43,36 +43,36 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
   const formatNumber = (num: number) => num.toString().padStart(2, '0');
 
   return (
-    <div className="flex gap-4 justify-center items-center text-white">
-      <div className="flex flex-col items-center bg-black/30 border border-golden-400 rounded-lg p-4 min-w-[80px]">
-        <div className="text-3xl md:text-4xl lg:text-5xl font-bold">
-          {formatNumber(timeLeft.days)}
+    <div className="flex gap-2 md:gap-4 justify-center items-center text-white">
+      <div className="flex flex-col items-center bg-black/40 border border-golden-400/60 rounded-lg p-3 md:p-4 min-w-[70px] md:min-w-[80px]">
+        <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
+          {timeLeft.days}
         </div>
-        <div className="text-xs md:text-sm uppercase tracking-wider text-golden-300">
+        <div className="text-xs md:text-sm uppercase tracking-wider text-golden-300 mt-1">
           DAYS
         </div>
       </div>
-      <div className="flex flex-col items-center bg-black/30 border border-golden-400 rounded-lg p-4 min-w-[80px]">
-        <div className="text-3xl md:text-4xl lg:text-5xl font-bold">
-          {formatNumber(timeLeft.hours)}
+      <div className="flex flex-col items-center bg-black/40 border border-golden-400/60 rounded-lg p-3 md:p-4 min-w-[70px] md:min-w-[80px]">
+        <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
+          {timeLeft.hours}
         </div>
-        <div className="text-xs md:text-sm uppercase tracking-wider text-golden-300">
+        <div className="text-xs md:text-sm uppercase tracking-wider text-golden-300 mt-1">
           HOURS
         </div>
       </div>
-      <div className="flex flex-col items-center bg-black/30 border border-golden-400 rounded-lg p-4 min-w-[80px]">
-        <div className="text-3xl md:text-4xl lg:text-5xl font-bold">
-          {formatNumber(timeLeft.minutes)}
+      <div className="flex flex-col items-center bg-black/40 border border-golden-400/60 rounded-lg p-3 md:p-4 min-w-[70px] md:min-w-[80px]">
+        <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
+          {timeLeft.minutes}
         </div>
-        <div className="text-xs md:text-sm uppercase tracking-wider text-golden-300">
+        <div className="text-xs md:text-sm uppercase tracking-wider text-golden-300 mt-1">
           MINUTES
         </div>
       </div>
-      <div className="flex flex-col items-center bg-black/30 border border-golden-400 rounded-lg p-4 min-w-[80px]">
-        <div className="text-3xl md:text-4xl lg:text-5xl font-bold">
-          {formatNumber(timeLeft.seconds)}
+      <div className="flex flex-col items-center bg-black/40 border border-golden-400/60 rounded-lg p-3 md:p-4 min-w-[70px] md:min-w-[80px]">
+        <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
+          {timeLeft.seconds}
         </div>
-        <div className="text-xs md:text-sm uppercase tracking-wider text-golden-300">
+        <div className="text-xs md:text-sm uppercase tracking-wider text-golden-300 mt-1">
           SECONDS
         </div>
       </div>
