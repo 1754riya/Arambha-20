@@ -110,12 +110,12 @@ export default function Index() {
       </div>
 
       {/* Main subtitle */}
-      <div className="absolute left-[284px] top-[303px] w-[861px] h-[94px] text-white text-center font-cardo text-[32px] font-bold leading-[47px]">
+      <div className="absolute left-[290px] top-[330px] w-[860px] h-[94px] text-white text-center font-cardo text-[32px] font-bold leading-[47px]">
         EXPERIENCE HOW IT FEELS TO START-UP WHILE YOU ARE STILL IN SCHOOL.
       </div>
 
       {/* Main title image */}
-      <div className="absolute left-[212px] top-[408px] w-[1000px] h-[134px]">
+      <div className="absolute left-[220px] top-[445px] w-[1000px] h-[134px]">
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F5746955424264108be8a3fee58eacc7d%2Fdb420c53c5744888b3efc1115a7443f8?format=webp&width=800"
           alt="YOUNG ENTREPRENEURS' BOOTCAMP"
@@ -124,7 +124,7 @@ export default function Index() {
       </div>
 
       {/* Register button with decorative lines */}
-      <div className="absolute left-[616px] top-[560px]">
+      <div className="absolute left-[622px] top-[600px]">
         <div className="w-[196px] h-[50px] relative">
           <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-[#805500] to-[#662200] shadow-[0_12px_24px_0_rgba(46,32,5,0.20)] backdrop-blur-[25px]"></div>
           <div className="absolute inset-0 flex items-center justify-center text-white font-cardo text-[24px] font-bold tracking-[1.2px]">
@@ -133,12 +133,12 @@ export default function Index() {
         </div>
         
         {/* Decorative lines */}
-        <div className="absolute left-[-69px] top-[25px]">
+        <div className="absolute left-[-75px] top-[25px]">
           <svg width="56" height="4" viewBox="0 0 56 4" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M56.0089 0C56.0089 1.33333 56.0089 2.66667 56.0089 4C55.0754 3.96667 54.1419 3.93333 53.2085 3.9C36.4058 3.3 19.6031 2.7 2.80043 2.1C1.86694 2.06667 0.933467 2.03333 -1.52588e-05 2C0.933467 1.96667 1.86694 1.93333 2.80043 1.9C19.6031 1.3 36.4058 0.7 53.2085 0.1C54.1419 0.0666667 55.0754 0.0333333 56.0089 0Z" fill="#EDCD4B"/>
           </svg>
         </div>
-        <div className="absolute left-[209px] top-[25px]">
+        <div className="absolute left-[203px] top-[25px]">
           <svg width="56" height="4" viewBox="0 0 56 4" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 0C0 1.33333 0 2.66667 0 4C0.933482 3.96667 1.86696 3.93333 2.80045 3.9C19.6031 3.3 36.4058 2.7 53.2085 2.1C54.142 2.06667 55.0754 2.03333 56.0089 2C55.0754 1.96667 54.142 1.93333 53.2085 1.9C36.4058 1.3 19.6031 0.7 2.80045 0.1C1.86696 0.0666667 0.933482 0.0333333 0 0Z" fill="#EDCD4B"/>
           </svg>
@@ -146,12 +146,12 @@ export default function Index() {
       </div>
 
       {/* Countdown Timer */}
-      <div className="absolute left-[317px] top-[633px]">
+      <div className="absolute left-[323px] top-[680px]">
         <CountdownTimer targetDate={eventDate} />
       </div>
 
       {/* Event Details */}
-      <div className="absolute left-[142px] top-[837px] w-[1143px] h-[56px]">
+      <div className="absolute left-[142px] top-[890px] w-[1143px] h-[56px]">
         <div className="absolute left-0 top-0 w-[56px] h-[56px] flex justify-center items-center">
           <MapPin className="w-[56px] h-[56px] text-[#D08625]" strokeWidth={1.5} />
         </div>
