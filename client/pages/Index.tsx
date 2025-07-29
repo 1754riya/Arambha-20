@@ -12,10 +12,10 @@ export default function Index() {
       <div className="absolute top-0 right-0 w-32 h-screen bg-gradient-to-b from-golden-500/30 to-transparent transform skew-x-12 translate-x-4"></div>
       
       {/* Side badges */}
-      <div className="absolute left-0 top-1/2 -translate-y-1/2 -rotate-90 bg-golden-500 text-black px-8 py-2 font-bold text-sm tracking-wider">
+      <div className="hidden lg:block absolute left-0 top-1/2 -translate-y-1/2 -rotate-90 bg-golden-500 text-black px-8 py-2 font-bold text-sm tracking-wider origin-center">
         Prize Pool: 1,35,000
       </div>
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 rotate-90 bg-golden-500 text-black px-8 py-2 font-bold text-sm tracking-wider">
+      <div className="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 rotate-90 bg-golden-500 text-black px-8 py-2 font-bold text-sm tracking-wider origin-center">
         Inter School Competition
       </div>
 
