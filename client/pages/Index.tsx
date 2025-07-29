@@ -21,7 +21,7 @@ export default function Index() {
             </radialGradient>
           </defs>
         </svg>
-        <div className="absolute left-[4px] top-[36px] w-[313px] h-[47px] transform -rotate-90 text-black text-center font-inter text-[32px] font-bold leading-[47px]">
+        <div className="absolute left-[-120px] top-[180px] w-[313px] h-[47px] transform -rotate-90 text-black text-center font-inter text-[32px] font-bold leading-[47px]">
           Prize Pool: 1,35,000
         </div>
       </div>
@@ -37,20 +37,20 @@ export default function Index() {
             </radialGradient>
           </defs>
         </svg>
-        <div className="absolute left-[8px] top-[29px] w-[342px] h-[47px] transform rotate-90 text-black text-center font-inter text-[28px] font-bold leading-[47px]">
+        <div className="absolute left-[-140px] top-[180px] w-[342px] h-[47px] transform rotate-90 text-black text-center font-inter text-[28px] font-bold leading-[47px]">
           Inter School Competition
         </div>
       </div>
 
       {/* Top left logo */}
       <div className="absolute left-[12px] top-[11px] w-[241px] h-[111px]">
-        <div className="absolute left-[9px] top-0 w-[232px] h-[107px] font-hind text-[70px] font-semibold leading-[142.169px] uppercase bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent">
+        <div className="absolute left-[9px] top-0 w-[232px] h-[107px] font-hind text-[70px] font-semibold leading-[107px] uppercase bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent">
           आरंभ
         </div>
-        <div className="absolute left-0 top-[84px] w-[160px] h-[27px] text-white font-cardo text-[10px] font-bold leading-[142.169px]">
+        <div className="absolute left-0 top-[84px] w-[160px] h-[27px] text-white font-cardo text-[10px] font-bold leading-[27px]">
           (A Platform for rising Innovators)
         </div>
-        <div className="absolute left-[118px] top-[8px] w-[71px] h-[43px] text-white font-inter text-[25px] font-medium leading-[142.169px]">
+        <div className="absolute left-[210px] top-[8px] w-[71px] h-[43px] text-white font-inter text-[25px] font-medium leading-[43px]">
           2K25
         </div>
       </div>
@@ -127,7 +127,7 @@ export default function Index() {
       <div className="absolute left-[616px] top-[560px]">
         <div className="w-[196px] h-[50px] relative">
           <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-[#805500] to-[#662200] shadow-[0_12px_24px_0_rgba(46,32,5,0.20)] backdrop-blur-[25px]"></div>
-          <div className="absolute left-[19px] top-[9px] w-[163px] h-[32px] flex items-center justify-center text-white font-cardo text-[24px] font-bold tracking-[1.2px]">
+          <div className="absolute inset-0 flex items-center justify-center text-white font-cardo text-[24px] font-bold tracking-[1.2px]">
             Register Now
           </div>
         </div>
