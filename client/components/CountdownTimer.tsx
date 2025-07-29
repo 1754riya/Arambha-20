@@ -13,10 +13,10 @@ interface CountdownTimerProps {
 
 export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
+    days: 100,
+    hours: 10,
+    minutes: 46,
+    seconds: 54,
   });
 
   useEffect(() => {
@@ -40,41 +40,42 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
     return () => clearInterval(timer);
   }, [targetDate]);
 
-  const formatNumber = (num: number) => num.toString().padStart(2, '0');
-
   return (
-    <div className="flex gap-2 md:gap-4 justify-center items-center text-white">
-      <div className="flex flex-col items-center bg-black/40 border border-golden-400/60 rounded-lg p-3 md:p-4 min-w-[70px] md:min-w-[80px]">
-        <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
-          {timeLeft.days}
-        </div>
-        <div className="text-xs md:text-sm uppercase tracking-wider text-golden-300 mt-1">
-          DAYS
-        </div>
+    <div className="w-[794px] h-[191px] relative">
+      {/* Timer container with backdrop blur */}
+      <div className="absolute inset-0 rounded-lg border border-white/50 bg-black/10 shadow-[0_24px_34px_0_rgba(0,0,0,0.20)] backdrop-blur-[25px]"></div>
+      
+      {/* Top separator lines */}
+      <div className="absolute left-[193px] top-[11px] w-[170px] h-0 bg-white"></div>
+      <div className="absolute left-[393px] top-[11px] w-[170px] h-0 bg-white"></div>
+      <div className="absolute left-[594px] top-[11px] w-[170px] h-0 bg-white"></div>
+      
+      {/* Timer numbers */}
+      <div className="absolute left-[25px] top-[50px] w-[148px] h-[67px] text-white text-center font-cardo text-[96px] font-bold leading-[67px]">
+        {timeLeft.days}
       </div>
-      <div className="flex flex-col items-center bg-black/40 border border-golden-400/60 rounded-lg p-3 md:p-4 min-w-[70px] md:min-w-[80px]">
-        <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
-          {timeLeft.hours}
-        </div>
-        <div className="text-xs md:text-sm uppercase tracking-wider text-golden-300 mt-1">
-          HOURS
-        </div>
+      <div className="absolute left-[244px] top-[50px] w-[99px] h-[67px] text-white text-center font-cardo text-[96px] font-bold leading-[67px]">
+        {timeLeft.hours}
       </div>
-      <div className="flex flex-col items-center bg-black/40 border border-golden-400/60 rounded-lg p-3 md:p-4 min-w-[70px] md:min-w-[80px]">
-        <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
-          {timeLeft.minutes}
-        </div>
-        <div className="text-xs md:text-sm uppercase tracking-wider text-golden-300 mt-1">
-          MINUTES
-        </div>
+      <div className="absolute left-[445px] top-[50px] w-[99px] h-[67px] text-white text-center font-cardo text-[96px] font-bold leading-[67px]">
+        {timeLeft.minutes}
       </div>
-      <div className="flex flex-col items-center bg-black/40 border border-golden-400/60 rounded-lg p-3 md:p-4 min-w-[70px] md:min-w-[80px]">
-        <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
-          {timeLeft.seconds}
-        </div>
-        <div className="text-xs md:text-sm uppercase tracking-wider text-golden-300 mt-1">
-          SECONDS
-        </div>
+      <div className="absolute left-[646px] top-[50px] w-[99px] h-[67px] text-white text-center font-cardo text-[96px] font-bold leading-[67px]">
+        {timeLeft.seconds}
+      </div>
+      
+      {/* Timer labels */}
+      <div className="absolute left-[68px] top-[114px] w-[66px] h-[67px] text-white/70 text-center font-inter text-[24px] font-bold leading-[67px]">
+        DAYS
+      </div>
+      <div className="absolute left-[262px] top-[114px] w-[86px] h-[67px] text-white/80 text-center font-inter text-[24px] font-bold leading-[67px]">
+        HOURS
+      </div>
+      <div className="absolute left-[440px] top-[114px] w-[111px] h-[67px] text-white/80 text-center font-inter text-[24px] font-bold leading-[67px]">
+        MINUTES
+      </div>
+      <div className="absolute left-[637px] top-[114px] w-[119px] h-[67px] text-white/80 text-center font-inter text-[24px] font-bold leading-[67px]">
+        SECONDS
       </div>
     </div>
   );
