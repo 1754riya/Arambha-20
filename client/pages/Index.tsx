@@ -116,9 +116,9 @@ export default function Index() {
 
       {/* Main title image */}
       <div className="absolute left-[212px] top-[408px] w-[1016px] h-[134px]">
-        <img 
-          src="https://cdn.builder.io/o/assets%2F5746955424264108be8a3fee58eacc7d%2F7cdf31417bd14ce8ab2bed209df58931?alt=media&token=323366d2-7eed-4745-b69c-43bda763f527&apiKey=5746955424264108be8a3fee58eacc7d" 
-          alt="YOUNG ENTREPRENEURS' BOOTCAMP" 
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F5746955424264108be8a3fee58eacc7d%2Fdb420c53c5744888b3efc1115a7443f8?format=webp&width=800"
+          alt="YOUNG ENTREPRENEURS' BOOTCAMP"
           className="w-full h-full object-contain"
         />
       </div>
