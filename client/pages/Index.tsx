@@ -84,9 +84,14 @@ export default function Index() {
 
           {/* Register button */}
           <div className="mb-12">
-            <button className="bg-gradient-to-r from-golden-400 to-golden-500 hover:from-golden-500 hover:to-golden-600 text-black font-bold py-4 px-12 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-xl shadow-golden-500/25 border-2 border-golden-300">
+            <button className="bg-gradient-to-r from-golden-400 to-golden-500 hover:from-golden-500 hover:to-golden-600 text-black font-bold py-4 px-12 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-xl shadow-golden-500/25 border-2 border-golden-300 relative">
               Register Now
             </button>
+            <div className="flex items-center justify-center mt-4">
+              <div className="w-16 h-px bg-golden-400"></div>
+              <div className="mx-2 w-2 h-2 bg-golden-400 rounded-full"></div>
+              <div className="w-16 h-px bg-golden-400"></div>
+            </div>
           </div>
 
           {/* Countdown Timer */}
