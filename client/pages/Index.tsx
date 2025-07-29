@@ -50,7 +50,7 @@ export default function Index() {
         <div className="absolute left-0 top-[84px] w-[160px] h-[27px] text-white font-cardo text-[10px] font-bold leading-[27px]">
           (A Platform for rising Innovators)
         </div>
-        <div className="absolute left-[210px] top-[8px] w-[71px] h-[43px] text-white font-inter text-[25px] font-medium leading-[43px]">
+        <div className="absolute left-[190px] top-[-15px] w-[71px] h-[43px] text-white font-inter text-[25px] font-medium leading-[43px]">
           2K25
         </div>
       </div>
@@ -115,7 +115,7 @@ export default function Index() {
       </div>
 
       {/* Main title image */}
-      <div className="absolute left-[212px] top-[408px] w-[1016px] h-[134px]">
+      <div className="absolute left-[212px] top-[408px] w-[1000px] h-[134px]">
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F5746955424264108be8a3fee58eacc7d%2Fdb420c53c5744888b3efc1115a7443f8?format=webp&width=800"
           alt="YOUNG ENTREPRENEURS' BOOTCAMP"
@@ -155,13 +155,13 @@ export default function Index() {
         <div className="absolute left-0 top-0 w-[56px] h-[56px] flex justify-center items-center">
           <MapPin className="w-[56px] h-[56px] text-[#D08625]" strokeWidth={1.5} />
         </div>
-        <div className="absolute left-[61px] top-[11px] w-[722px] h-[34px] text-white font-inter text-[28px] font-bold">
+        <div className="absolute left-[61px] top-[11px] w-[722px] h-[34px] text-white font-inter text-[24px] font-bold">
           IPS Academy, A.B Road, Rajendra Nagar, Indore (M.P)
         </div>
         <div className="absolute left-[819px] top-0 w-[56px] h-[56px] flex justify-center items-center">
           <Calendar className="w-[56px] h-[56px] text-[#D08625]" strokeWidth={1.5} />
         </div>
-        <div className="absolute left-[888px] top-[11px] w-[255px] h-[34px] text-white font-inter text-[28px] font-bold">
+        <div className="absolute left-[888px] top-[11px] w-[255px] h-[34px] text-white font-inter text-[24px] font-bold">
           9th-11th Sep 2025
         </div>
       </div>
