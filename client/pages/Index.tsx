@@ -83,9 +83,11 @@ export default function Index() {
           </h2>
 
           {/* Register button */}
-          <button className="bg-gradient-to-r from-golden-500 to-golden-600 hover:from-golden-600 hover:to-golden-700 text-black font-bold py-4 px-12 rounded-full text-lg transition-all duration-300 transform hover:scale-105 mb-12 shadow-xl shadow-golden-500/25">
-            Register Now
-          </button>
+          <div className="mb-12">
+            <button className="bg-gradient-to-r from-golden-400 to-golden-500 hover:from-golden-500 hover:to-golden-600 text-black font-bold py-4 px-12 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-xl shadow-golden-500/25 border-2 border-golden-300">
+              Register Now
+            </button>
+          </div>
 
           {/* Countdown Timer */}
           <div className="mb-8">
