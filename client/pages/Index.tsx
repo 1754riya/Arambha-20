@@ -61,11 +61,6 @@ export default function Index() {
 
         {/* Navigation Section */}
         <nav className="relative mb-12 px-4">
-          {/* Quick Links */}
-          <div className="text-center text-white font-cardo text-xl lg:text-2xl font-bold mb-8">
-            Quick links
-          </div>
-
           {/* Navigation Line */}
           <div className="relative flex justify-center mb-2">
             <svg
