@@ -1,0 +1,6 @@
+server/
+api/
+netlify/
+*.md
+.env*
+node_modules
