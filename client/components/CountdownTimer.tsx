@@ -45,10 +45,7 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
       {/* Timer container with backdrop blur */}
       <div className="absolute inset-0 rounded-lg border border-white/50 bg-black/10 shadow-[0_24px_34px_0_rgba(0,0,0,0.20)] backdrop-blur-[25px]"></div>
       
-      {/* Top separator lines */}
-      <div className="absolute left-[193px] top-[11px] w-[170px] h-[2px] bg-white"></div>
-      <div className="absolute left-[393px] top-[11px] w-[170px] h-[2px] bg-white"></div>
-      <div className="absolute left-[594px] top-[11px] w-[170px] h-[2px] bg-white"></div>
+
 
       {/* Vertical separator lines between timer sections */}
       <div className="absolute left-[195px] top-[20px] w-[2px] h-[150px] bg-white/30"></div>
