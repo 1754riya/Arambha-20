@@ -44,6 +44,9 @@ export default function Index() {
             <div className="text-white font-cairo text-2xl lg:text-[40px] font-semibold uppercase mt-2">
               BY IPS, IES
             </div>
+            <div className="text-white font-cardo text-lg lg:text-2xl font-bold mt-1">
+              Quick links
+            </div>
           </div>
 
           {/* Right Logo */}
