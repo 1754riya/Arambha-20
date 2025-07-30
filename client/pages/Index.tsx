@@ -25,11 +25,11 @@ export default function Index() {
         <header className="flex justify-between items-start p-4 lg:p-6">
           {/* Left Logo */}
           <div className="relative">
-            <div className="text-white font-inter text-xl lg:text-2xl font-medium mb-2">
-              2K25
-            </div>
             <div className="text-5xl lg:text-[70px] font-hind font-semibold uppercase bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent leading-tight">
               आरंभ
+            </div>
+            <div className="absolute top-0 right-0 lg:right-2 text-white font-inter text-xl lg:text-2xl font-medium">
+              2K25
             </div>
             <div className="text-white font-cardo text-xs font-bold mt-2">
               (A Platform for rising Innovators)
