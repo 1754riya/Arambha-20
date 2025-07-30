@@ -1,18 +1,10 @@
 {
-  "name": "fusion-starter",
+  "name": "aarambha-frontend",
   "private": true,
   "type": "module",
-  "pkg": {
-    "assets": [
-      "dist/spa/*"
-    ],
-    "scripts": [
-      "dist/server/**/*.js"
-    ]
-  },
   "scripts": {
     "dev": "vite",
-    "build": "tsc --project tsconfig.build.json && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "test": "vitest --run",
     "format.fix": "prettier --write .",
