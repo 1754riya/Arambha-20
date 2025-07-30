@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 interface TimeLeft {
   days: number;
@@ -27,8 +27,12 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
 
       if (difference > 0) {
         const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        const hours = Math.floor(
+          (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+        );
+        const minutes = Math.floor(
+          (difference % (1000 * 60 * 60)) / (1000 * 60),
+        );
         const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
         setTimeLeft({ days, hours, minutes, seconds });
@@ -44,14 +48,12 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
     <div className="w-[794px] h-[191px] relative">
       {/* Timer container with backdrop blur */}
       <div className="absolute inset-0 rounded-lg border border-white/50 bg-black/10 shadow-[0_24px_34px_0_rgba(0,0,0,0.20)] backdrop-blur-[25px]"></div>
-      
-
 
       {/* Vertical separator lines between timer sections */}
       <div className="absolute left-[195px] top-[20px] w-[2px] h-[150px] bg-white/30"></div>
       <div className="absolute left-[395px] top-[20px] w-[2px] h-[150px] bg-white/30"></div>
       <div className="absolute left-[595px] top-[20px] w-[2px] h-[150px] bg-white/30"></div>
-      
+
       {/* Timer numbers */}
       <div className="absolute left-[25px] top-[50px] w-[148px] h-[67px] text-white text-center font-cardo text-[96px] font-bold leading-[67px]">
         {timeLeft.days}
@@ -65,7 +67,7 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
       <div className="absolute left-[646px] top-[50px] w-[99px] h-[67px] text-white text-center font-cardo text-[96px] font-bold leading-[67px]">
         {timeLeft.seconds}
       </div>
-      
+
       {/* Timer labels */}
       <div className="absolute left-[68px] top-[114px] w-[66px] h-[67px] text-white/70 text-center font-inter text-[24px] font-bold leading-[67px]">
         DAYS
