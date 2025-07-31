@@ -22,7 +22,7 @@ export default function Index() {
       {/* Container for all content */}
       <div className="relative z-10 w-full min-h-screen flex flex-col">
         {/* Header Section - Compact */}
-        <header className="flex justify-between items-center p-3 lg:p-4 mb-4">
+        <header className="flex justify-between items-center p-3 lg:px-16 lg:py-3 mb-3 max-w-[1400px] mx-auto w-full">
           {/* Left Logo */}
           <div className="relative">
             <div className="absolute -top-4 right-8 text-white font-inter text-sm lg:text-lg font-medium">
