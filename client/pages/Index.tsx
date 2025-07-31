@@ -28,7 +28,7 @@ export default function Index() {
             <div className="absolute -top-4 right-8 text-white font-inter text-sm lg:text-lg font-medium">
               2K25
             </div>
-            <div className="text-2xl lg:text-[35px] font-hind font-semibold uppercase bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent leading-tight">
+            <div className="text-3xl lg:text-[42px] font-hind font-semibold uppercase bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent leading-tight">
               आरंभ
             </div>
             <div className="text-white font-cardo text-xs font-bold mt-1">
@@ -38,16 +38,19 @@ export default function Index() {
 
           {/* Center Title */}
           <div className="text-center flex-1 mx-6">
-            <div className="text-xl lg:text-[22px] font-inter font-bold bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent">
+            <div className="text-xl lg:text-[24px] font-inter font-bold bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent">
               AARAMBHA
             </div>
-            <div className="text-white font-cairo text-base lg:text-[18px] font-semibold uppercase mt-1">
+            <div className="text-white font-cairo text-base lg:text-[20px] font-semibold uppercase mt-1">
               BY IPS, IES
+            </div>
+            <div className="text-white font-cardo text-sm lg:text-base font-bold mt-1">
+              Quick links
             </div>
           </div>
 
           {/* Right Logo */}
-          <div className="w-14 h-14 lg:w-16 lg:h-16">
+          <div className="w-16 h-16 lg:w-20 lg:h-20">
             <img
               className="w-full h-full rounded-full object-cover"
               src="https://cdn.builder.io/api/v1/image/assets%2F5746955424264108be8a3fee58eacc7d%2Fa1343e8c373344faacc4d6de3e7ff383?format=webp&width=800"
@@ -88,7 +91,7 @@ export default function Index() {
           </div>
 
           {/* Navigation Items positioned below the line */}
-          <div className="flex flex-wrap justify-center items-center gap-2 lg:gap-8 px-2 lg:px-4 text-xs lg:text-sm">
+          <div className="flex flex-wrap justify-center items-center gap-3 lg:gap-10 px-2 lg:px-4 text-sm lg:text-base">
             <div className="font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
               About Event
             </div>
@@ -96,10 +99,10 @@ export default function Index() {
               What you'll get
             </div>
             <div className="font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
-              Program Fee
+              Eligibility & Program Fee
             </div>
             <div className="font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
-              Selection
+              Selection Process
             </div>
             <div className="font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
               Deadlines
@@ -115,7 +118,7 @@ export default function Index() {
           </div>
 
           {/* Main Title */}
-          <div className="text-xl lg:text-[26px] font-cardo font-bold leading-tight bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent mb-3">
+          <div className="text-2xl lg:text-[32px] font-cardo font-bold leading-tight bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent mb-3">
             YOUNG ENTREPRENEURS'
             <br />
             BOOTCAMP
