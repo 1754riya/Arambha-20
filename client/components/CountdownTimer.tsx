@@ -54,49 +54,49 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
 
           {/* Days */}
           <div className="flex flex-col items-center flex-1">
-            <div className="text-white text-center font-cardo text-3xl lg:text-5xl font-bold leading-tight">
+            <div className="text-white text-center font-cardo text-2xl lg:text-4xl font-bold leading-tight">
               {timeLeft.days.toString().padStart(2, '0')}
             </div>
-            <div className="text-white/70 text-center font-inter text-xs lg:text-sm font-bold mt-1">
+            <div className="text-white/70 text-center font-inter text-xs lg:text-xs font-bold mt-0.5">
               DAYS
             </div>
           </div>
 
           {/* Separator */}
-          <div className="w-px h-12 lg:h-16 bg-white/30"></div>
+          <div className="w-px h-10 lg:h-12 bg-white/30"></div>
 
           {/* Hours */}
           <div className="flex flex-col items-center flex-1">
-            <div className="text-white text-center font-cardo text-3xl lg:text-5xl font-bold leading-tight">
+            <div className="text-white text-center font-cardo text-2xl lg:text-4xl font-bold leading-tight">
               {timeLeft.hours.toString().padStart(2, '0')}
             </div>
-            <div className="text-white/80 text-center font-inter text-xs lg:text-sm font-bold mt-1">
+            <div className="text-white/80 text-center font-inter text-xs lg:text-xs font-bold mt-0.5">
               HOURS
             </div>
           </div>
 
           {/* Separator */}
-          <div className="w-px h-12 lg:h-16 bg-white/30"></div>
+          <div className="w-px h-10 lg:h-12 bg-white/30"></div>
 
           {/* Minutes */}
           <div className="flex flex-col items-center flex-1">
-            <div className="text-white text-center font-cardo text-3xl lg:text-5xl font-bold leading-tight">
+            <div className="text-white text-center font-cardo text-2xl lg:text-4xl font-bold leading-tight">
               {timeLeft.minutes.toString().padStart(2, '0')}
             </div>
-            <div className="text-white/80 text-center font-inter text-xs lg:text-sm font-bold mt-1">
+            <div className="text-white/80 text-center font-inter text-xs lg:text-xs font-bold mt-0.5">
               MINUTES
             </div>
           </div>
 
           {/* Separator */}
-          <div className="w-px h-12 lg:h-16 bg-white/30"></div>
+          <div className="w-px h-10 lg:h-12 bg-white/30"></div>
 
           {/* Seconds */}
           <div className="flex flex-col items-center flex-1">
-            <div className="text-white text-center font-cardo text-3xl lg:text-5xl font-bold leading-tight">
+            <div className="text-white text-center font-cardo text-2xl lg:text-4xl font-bold leading-tight">
               {timeLeft.seconds.toString().padStart(2, '0')}
             </div>
-            <div className="text-white/80 text-center font-inter text-xs lg:text-sm font-bold mt-1">
+            <div className="text-white/80 text-center font-inter text-xs lg:text-xs font-bold mt-0.5">
               SECONDS
             </div>
           </div>
