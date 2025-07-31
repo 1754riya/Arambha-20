@@ -183,8 +183,8 @@ export default function Index() {
         </footer>
 
         {/* Side Badges - Touch Screen Edges */}
-        <div className="fixed left-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20 h-[250px]">
-          <svg width="50" height="250" viewBox="0 0 57 398" fill="none" className="h-full w-full">
+        <div className="fixed left-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20 h-[280px]">
+          <svg width="55" height="280" viewBox="0 0 57 398" fill="none" className="h-full w-full">
             <path d="M0 0L57 26V373L0 398V0Z" fill="url(#paint0_radial_left)" />
             <defs>
               <radialGradient
@@ -200,13 +200,13 @@ export default function Index() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="absolute left-[-90px] top-[110px] w-[200px] h-[30px] transform -rotate-90 text-black text-center font-inter text-sm font-bold leading-[30px]">
+          <div className="absolute left-[-105px] top-[125px] w-[230px] h-[35px] transform -rotate-90 text-black text-center font-inter text-base font-bold leading-[35px]">
             Prize Pool: ₹1,35,000
           </div>
         </div>
 
-        <div className="fixed right-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20 h-[250px]">
-          <svg width="50" height="250" viewBox="0 0 57 398" fill="none" className="h-full w-full">
+        <div className="fixed right-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20 h-[280px]">
+          <svg width="55" height="280" viewBox="0 0 57 398" fill="none" className="h-full w-full">
             <path
               d="M57 0L0 26V373L57 398V0Z"
               fill="url(#paint0_radial_right)"
@@ -225,7 +225,7 @@ export default function Index() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="absolute left-[-100px] top-[110px] w-[220px] h-[30px] transform rotate-90 text-black text-center font-inter text-sm font-bold leading-[30px]">
+          <div className="absolute left-[-115px] top-[125px] w-[250px] h-[35px] transform rotate-90 text-black text-center font-inter text-base font-bold leading-[35px]">
             Inter School Competition
           </div>
         </div>
