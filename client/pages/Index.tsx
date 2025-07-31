@@ -57,7 +57,7 @@ export default function Index() {
         </header>
 
         {/* Navigation Section - Compact */}
-        <nav className="relative mb-6 px-3">
+        <nav className="relative mb-4 px-3 max-w-[1400px] mx-auto w-full">
           {/* Navigation Line */}
           <div className="relative flex justify-center mb-2">
             <svg
