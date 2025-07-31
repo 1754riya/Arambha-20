@@ -22,9 +22,9 @@ export default function Index() {
       {/* Container for all content */}
       <div className="relative z-10 w-full min-h-screen flex flex-col">
         {/* Header Section - Compact */}
-        <header className="flex justify-between items-center p-2 lg:px-16 lg:py-2 mb-2 max-w-[1400px] mx-auto w-full">
+        <header className="flex items-center p-2 lg:px-16 lg:py-2 mb-2 max-w-[1400px] mx-auto w-full">
           {/* Left Logo */}
-          <div className="relative">
+          <div className="relative flex-shrink-0">
             <div className="absolute -top-4 right-8 text-white font-inter text-sm lg:text-lg font-medium">
               2K25
             </div>
@@ -36,8 +36,8 @@ export default function Index() {
             </div>
           </div>
 
-          {/* Center Title */}
-          <div className="text-center flex-1 mx-6">
+          {/* Center Title - Absolutely Centered */}
+          <div className="absolute left-1/2 transform -translate-x-1/2 text-center">
             <div className="text-xl lg:text-[24px] font-inter font-bold bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent">
               AARAMBHA
             </div>
@@ -50,7 +50,7 @@ export default function Index() {
           </div>
 
           {/* Right Logo */}
-          <div className="w-16 h-16 lg:w-20 lg:h-20">
+          <div className="w-16 h-16 lg:w-20 lg:h-20 ml-auto flex-shrink-0">
             <img
               className="w-full h-full rounded-full object-cover"
               src="https://cdn.builder.io/api/v1/image/assets%2F5746955424264108be8a3fee58eacc7d%2Fa1343e8c373344faacc4d6de3e7ff383?format=webp&width=800"
@@ -200,7 +200,7 @@ export default function Index() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="absolute left-[-85px] top-[125px] w-[200px] h-[35px] transform -rotate-90 text-black text-center font-inter text-base font-bold leading-[35px]">
+          <div className="absolute left-[-95px] top-[125px] w-[220px] h-[35px] transform -rotate-90 text-black text-center font-inter text-base font-bold leading-[35px]">
             Prize Pool: ₹1,35,000
           </div>
         </div>
