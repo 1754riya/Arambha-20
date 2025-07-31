@@ -179,9 +179,9 @@ export default function Index() {
           </div>
         </footer>
 
-        {/* Side Badges - Smaller */}
-        <div className="absolute left-0 top-1/2 transform -translate-y-1/2 hidden lg:block">
-          <svg width="40" height="280" viewBox="0 0 57 398" fill="none">
+        {/* Side Badges - Touch Screen Edges */}
+        <div className="fixed left-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20">
+          <svg width="45" height="320" viewBox="0 0 57 398" fill="none">
             <path d="M0 0L57 26V373L0 398V0Z" fill="url(#paint0_radial_left)" />
             <defs>
               <radialGradient
@@ -197,8 +197,8 @@ export default function Index() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="absolute left-[-90px] top-[120px] w-[220px] h-[40px] transform -rotate-90 text-black text-center font-inter text-lg font-bold leading-[40px]">
-            Prize Pool: 1,35,000
+          <div className="absolute left-[-100px] top-[140px] w-[240px] h-[40px] transform -rotate-90 text-black text-center font-inter text-base font-bold leading-[40px]">
+            Prize Pool: ₹1,35,000
           </div>
         </div>
 
