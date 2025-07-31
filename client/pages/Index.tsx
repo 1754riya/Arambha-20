@@ -22,13 +22,13 @@ export default function Index() {
       {/* Container for all content */}
       <div className="relative z-10 w-full min-h-screen flex flex-col">
         {/* Header Section - Compact */}
-        <header className="flex justify-between items-center p-3 lg:px-16 lg:py-3 mb-3 max-w-[1400px] mx-auto w-full">
+        <header className="flex justify-between items-center p-2 lg:px-16 lg:py-2 mb-2 max-w-[1400px] mx-auto w-full">
           {/* Left Logo */}
           <div className="relative">
             <div className="absolute -top-4 right-8 text-white font-inter text-sm lg:text-lg font-medium">
               2K25
             </div>
-            <div className="text-3xl lg:text-[45px] font-hind font-semibold uppercase bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent leading-tight">
+            <div className="text-2xl lg:text-[35px] font-hind font-semibold uppercase bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent leading-tight">
               आरंभ
             </div>
             <div className="text-white font-cardo text-xs font-bold mt-1">
@@ -38,16 +38,16 @@ export default function Index() {
 
           {/* Center Title */}
           <div className="text-center flex-1 mx-6">
-            <div className="text-2xl lg:text-[28px] font-inter font-bold bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent">
+            <div className="text-xl lg:text-[22px] font-inter font-bold bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent">
               AARAMBHA
             </div>
-            <div className="text-white font-cairo text-lg lg:text-[24px] font-semibold uppercase mt-1">
+            <div className="text-white font-cairo text-base lg:text-[18px] font-semibold uppercase mt-1">
               BY IPS, IES
             </div>
           </div>
 
           {/* Right Logo */}
-          <div className="w-16 h-16 lg:w-20 lg:h-20">
+          <div className="w-14 h-14 lg:w-16 lg:h-16">
             <img
               className="w-full h-full rounded-full object-cover"
               src="https://cdn.builder.io/api/v1/image/assets%2F5746955424264108be8a3fee58eacc7d%2Fa1343e8c373344faacc4d6de3e7ff383?format=webp&width=800"
@@ -57,7 +57,7 @@ export default function Index() {
         </header>
 
         {/* Navigation Section - Compact */}
-        <nav className="relative mb-4 px-3 max-w-[1400px] mx-auto w-full">
+        <nav className="relative mb-2 px-3 max-w-[1400px] mx-auto w-full">
           {/* Navigation Line */}
           <div className="relative flex justify-center mb-2">
             <svg
@@ -108,21 +108,21 @@ export default function Index() {
         </nav>
 
         {/* Main Content - Centered and Compact */}
-        <div className="flex-1 flex flex-col justify-center items-center text-center px-4 lg:px-16 py-4 max-w-[1400px] mx-auto w-full">
+        <div className="flex-1 flex flex-col justify-center items-center text-center px-4 lg:px-16 py-2 max-w-[1400px] mx-auto w-full">
           {/* Subtitle */}
-          <div className="text-white font-cardo text-base lg:text-lg font-bold leading-tight mb-4 max-w-2xl">
+          <div className="text-white font-cardo text-sm lg:text-base font-bold leading-tight mb-3 max-w-xl">
             EXPERIENCE HOW IT FEELS TO START-UP WHILE YOU ARE STILL IN SCHOOL.
           </div>
 
           {/* Main Title */}
-          <div className="text-2xl lg:text-[32px] font-cardo font-bold leading-tight bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent mb-4">
+          <div className="text-xl lg:text-[26px] font-cardo font-bold leading-tight bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent mb-3">
             YOUNG ENTREPRENEURS'
             <br />
             BOOTCAMP
           </div>
 
           {/* Register Button */}
-          <div className="relative mb-5">
+          <div className="relative mb-3">
             <button className="px-6 py-2 lg:px-8 lg:py-3 rounded-lg bg-gradient-to-r from-[#805500] to-[#662200] shadow-[0_12px_24px_0_rgba(46,32,5,0.20)] backdrop-blur-[25px] text-white font-cardo text-base lg:text-lg font-bold tracking-wider">
               Register Now
             </button>
@@ -147,21 +147,21 @@ export default function Index() {
           </div>
 
           {/* Countdown Timer - Centered */}
-          <div className="w-full flex justify-center mb-4">
+          <div className="w-full flex justify-center mb-2">
             <CountdownTimer targetDate={eventDate} />
           </div>
         </div>
 
         {/* Footer - Event Details - Compact */}
-        <footer className="mt-auto pb-3 lg:pb-4">
-          <div className="flex flex-col lg:flex-row justify-center items-center gap-3 lg:gap-6 px-4 max-w-[1400px] mx-auto w-full">
+        <footer className="mt-auto pb-2 lg:pb-3">
+          <div className="flex flex-col lg:flex-row justify-center items-center gap-2 lg:gap-4 px-4 max-w-[1400px] mx-auto w-full">
             {/* Location */}
             <div className="flex items-center gap-3">
               <MapPin
-                className="w-6 h-6 lg:w-8 lg:h-8 text-[#D08625] flex-shrink-0"
+                className="w-5 h-5 lg:w-6 lg:h-6 text-[#D08625] flex-shrink-0"
                 strokeWidth={1.5}
               />
-              <div className="text-white font-inter text-sm lg:text-lg font-bold">
+              <div className="text-white font-inter text-xs lg:text-sm font-bold">
                 IPS Academy, A.B Road, Rajendra Nagar, Indore (M.P)
               </div>
             </div>
@@ -169,10 +169,10 @@ export default function Index() {
             {/* Date */}
             <div className="flex items-center gap-3">
               <Calendar
-                className="w-6 h-6 lg:w-8 lg:h-8 text-[#D08625] flex-shrink-0"
+                className="w-5 h-5 lg:w-6 lg:h-6 text-[#D08625] flex-shrink-0"
                 strokeWidth={1.5}
               />
-              <div className="text-white font-inter text-sm lg:text-lg font-bold">
+              <div className="text-white font-inter text-xs lg:text-sm font-bold">
                 9th-11th Sep 2025
               </div>
             </div>
@@ -180,8 +180,8 @@ export default function Index() {
         </footer>
 
         {/* Side Badges - Touch Screen Edges */}
-        <div className="fixed left-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20">
-          <svg width="45" height="320" viewBox="0 0 57 398" fill="none">
+        <div className="fixed left-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20 h-[250px]">
+          <svg width="50" height="250" viewBox="0 0 57 398" fill="none" className="h-full w-full">
             <path d="M0 0L57 26V373L0 398V0Z" fill="url(#paint0_radial_left)" />
             <defs>
               <radialGradient
@@ -197,13 +197,13 @@ export default function Index() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="absolute left-[-100px] top-[140px] w-[240px] h-[40px] transform -rotate-90 text-black text-center font-inter text-base font-bold leading-[40px]">
+          <div className="absolute left-[-90px] top-[110px] w-[200px] h-[30px] transform -rotate-90 text-black text-center font-inter text-sm font-bold leading-[30px]">
             Prize Pool: ₹1,35,000
           </div>
         </div>
 
-        <div className="fixed right-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20">
-          <svg width="45" height="320" viewBox="0 0 57 398" fill="none">
+        <div className="fixed right-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20 h-[250px]">
+          <svg width="50" height="250" viewBox="0 0 57 398" fill="none" className="h-full w-full">
             <path
               d="M57 0L0 26V373L57 398V0Z"
               fill="url(#paint0_radial_right)"
@@ -222,7 +222,7 @@ export default function Index() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="absolute left-[-120px] top-[140px] w-[260px] h-[40px] transform rotate-90 text-black text-center font-inter text-base font-bold leading-[40px]">
+          <div className="absolute left-[-100px] top-[110px] w-[220px] h-[30px] transform rotate-90 text-black text-center font-inter text-sm font-bold leading-[30px]">
             Inter School Competition
           </div>
         </div>
