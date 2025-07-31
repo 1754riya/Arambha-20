@@ -153,8 +153,8 @@ export default function Index() {
         </div>
 
         {/* Footer - Event Details - Compact */}
-        <footer className="mt-auto pb-4 lg:pb-6">
-          <div className="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-8 px-4">
+        <footer className="mt-auto pb-3 lg:pb-4">
+          <div className="flex flex-col lg:flex-row justify-center items-center gap-3 lg:gap-6 px-4 max-w-[1400px] mx-auto w-full">
             {/* Location */}
             <div className="flex items-center gap-3">
               <MapPin
