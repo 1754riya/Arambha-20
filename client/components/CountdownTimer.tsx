@@ -45,9 +45,9 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
   }, [targetDate]);
 
   return (
-    <div className="w-full max-w-[520px] mx-auto relative">
+    <div className="w-full max-w-[440px] mx-auto relative">
       {/* Timer container with backdrop blur */}
-      <div className="rounded-lg border border-white/50 bg-black/10 shadow-[0_16px_24px_0_rgba(0,0,0,0.20)] backdrop-blur-[25px] p-4 lg:p-6">
+      <div className="rounded-lg border border-white/50 bg-black/10 shadow-[0_12px_20px_0_rgba(0,0,0,0.20)] backdrop-blur-[25px] p-3 lg:p-4">
 
         {/* Timer Display - Flexbox layout for responsiveness */}
         <div className="flex justify-between items-center gap-2 lg:gap-4">
