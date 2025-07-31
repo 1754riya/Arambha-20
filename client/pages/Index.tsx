@@ -108,7 +108,7 @@ export default function Index() {
         </nav>
 
         {/* Main Content - Centered and Compact */}
-        <div className="flex-1 flex flex-col justify-center items-center text-center px-4 lg:px-8 py-6">
+        <div className="flex-1 flex flex-col justify-center items-center text-center px-4 lg:px-16 py-4 max-w-[1400px] mx-auto w-full">
           {/* Subtitle */}
           <div className="text-white font-cardo text-lg lg:text-xl font-bold leading-tight mb-6 max-w-3xl">
             EXPERIENCE HOW IT FEELS TO START-UP WHILE YOU ARE STILL IN SCHOOL.
