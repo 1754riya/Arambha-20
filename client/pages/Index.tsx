@@ -110,12 +110,12 @@ export default function Index() {
         {/* Main Content - Centered and Compact */}
         <div className="flex-1 flex flex-col justify-center items-center text-center px-4 lg:px-16 py-4 max-w-[1400px] mx-auto w-full">
           {/* Subtitle */}
-          <div className="text-white font-cardo text-lg lg:text-xl font-bold leading-tight mb-6 max-w-3xl">
+          <div className="text-white font-cardo text-base lg:text-lg font-bold leading-tight mb-4 max-w-2xl">
             EXPERIENCE HOW IT FEELS TO START-UP WHILE YOU ARE STILL IN SCHOOL.
           </div>
 
           {/* Main Title */}
-          <div className="text-3xl lg:text-[42px] font-cardo font-bold leading-tight bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent mb-6">
+          <div className="text-2xl lg:text-[32px] font-cardo font-bold leading-tight bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent mb-4">
             YOUNG ENTREPRENEURS'
             <br />
             BOOTCAMP
