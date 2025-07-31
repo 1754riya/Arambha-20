@@ -202,8 +202,8 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="absolute right-0 top-1/2 transform -translate-y-1/2 hidden lg:block">
-          <svg width="40" height="280" viewBox="0 0 57 398" fill="none">
+        <div className="fixed right-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20">
+          <svg width="45" height="320" viewBox="0 0 57 398" fill="none">
             <path
               d="M57 0L0 26V373L57 398V0Z"
               fill="url(#paint0_radial_right)"
@@ -222,7 +222,7 @@ export default function Index() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="absolute left-[-110px] top-[120px] w-[240px] h-[40px] transform rotate-90 text-black text-center font-inter text-lg font-bold leading-[40px]">
+          <div className="absolute left-[-120px] top-[140px] w-[260px] h-[40px] transform rotate-90 text-black text-center font-inter text-base font-bold leading-[40px]">
             Inter School Competition
           </div>
         </div>
