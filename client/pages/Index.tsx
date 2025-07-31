@@ -20,7 +20,7 @@ export default function Index() {
       <div className="absolute left-0 bottom-0 w-full h-64 bg-gradient-to-t from-black/90 to-transparent z-0" />
 
       {/* Container for all content */}
-      <div className="relative z-10 max-w-[1440px] mx-auto min-h-screen flex flex-col">
+      <div className="relative z-10 w-full min-h-screen flex flex-col">
         {/* Header Section - Compact */}
         <header className="flex justify-between items-center p-3 lg:p-4 mb-4">
           {/* Left Logo */}
