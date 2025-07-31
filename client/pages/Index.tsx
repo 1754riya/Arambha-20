@@ -64,11 +64,11 @@ export default function Index() {
           {/* Navigation Line */}
           <div className="relative flex justify-center mb-2">
             <svg
-              width="600"
-              height="16"
+              width="700"
+              height="20"
               viewBox="0 0 995 24"
               fill="none"
-              className="max-w-full scale-75"
+              className="max-w-full scale-90"
             >
               <path
                 d="M0.452994 12L12 23.547L23.547 12L12 0.452994L0.452994 12ZM994.606 12L983.059 0.452994L971.512 12L983.059 23.547L994.606 12ZM12 12V14H983.059V12V10H12V12Z"
@@ -113,7 +113,7 @@ export default function Index() {
         {/* Main Content - Centered and Compact */}
         <div className="flex-1 flex flex-col justify-center items-center text-center px-4 lg:px-16 py-2 max-w-[1400px] mx-auto w-full">
           {/* Subtitle */}
-          <div className="text-white font-cardo text-sm lg:text-base font-bold leading-tight mb-3 max-w-xl">
+          <div className="text-white font-cardo text-base lg:text-lg font-bold leading-tight mb-3 max-w-2xl">
             EXPERIENCE HOW IT FEELS TO START-UP WHILE YOU ARE STILL IN SCHOOL.
           </div>
 
@@ -200,7 +200,7 @@ export default function Index() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="absolute left-[-105px] top-[125px] w-[230px] h-[35px] transform -rotate-90 text-black text-center font-inter text-base font-bold leading-[35px]">
+          <div className="absolute left-[-85px] top-[125px] w-[200px] h-[35px] transform -rotate-90 text-black text-center font-inter text-base font-bold leading-[35px]">
             Prize Pool: ₹1,35,000
           </div>
         </div>
@@ -225,7 +225,7 @@ export default function Index() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="absolute left-[-115px] top-[125px] w-[250px] h-[35px] transform rotate-90 text-black text-center font-inter text-base font-bold leading-[35px]">
+          <div className="absolute left-[-95px] top-[125px] w-[220px] h-[35px] transform rotate-90 text-black text-center font-inter text-base font-bold leading-[35px]">
             Inter School Competition
           </div>
         </div>
