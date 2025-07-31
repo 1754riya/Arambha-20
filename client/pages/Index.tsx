@@ -122,7 +122,7 @@ export default function Index() {
           </div>
 
           {/* Register Button */}
-          <div className="relative mb-8">
+          <div className="relative mb-5">
             <button className="px-6 py-2 lg:px-8 lg:py-3 rounded-lg bg-gradient-to-r from-[#805500] to-[#662200] shadow-[0_12px_24px_0_rgba(46,32,5,0.20)] backdrop-blur-[25px] text-white font-cardo text-base lg:text-lg font-bold tracking-wider">
               Register Now
             </button>
@@ -147,7 +147,7 @@ export default function Index() {
           </div>
 
           {/* Countdown Timer - Centered */}
-          <div className="w-full flex justify-center mb-6">
+          <div className="w-full flex justify-center mb-4">
             <CountdownTimer targetDate={eventDate} />
           </div>
         </div>
