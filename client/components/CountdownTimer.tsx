@@ -45,41 +45,60 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
   }, [targetDate]);
 
   return (
-    <div className="w-[794px] h-[191px] relative">
+    <div className="w-full max-w-[380px] mx-auto relative">
       {/* Timer container with backdrop blur */}
-      <div className="absolute inset-0 rounded-lg border border-white/50 bg-black/10 shadow-[0_24px_34px_0_rgba(0,0,0,0.20)] backdrop-blur-[25px]"></div>
+      <div className="rounded-lg border border-white/50 bg-black/10 shadow-[0_8px_16px_0_rgba(0,0,0,0.20)] backdrop-blur-[25px] p-2 lg:p-3">
+        {/* Timer Display - Flexbox layout for responsiveness */}
+        <div className="flex justify-between items-center gap-2 lg:gap-4">
+          {/* Days */}
+          <div className="flex flex-col items-center flex-1">
+            <div className="text-white text-center font-cardo text-2xl lg:text-4xl font-bold leading-tight">
+              {timeLeft.days.toString().padStart(2, "0")}
+            </div>
+            <div className="text-white/70 text-center font-inter text-xs lg:text-xs font-bold mt-0.5">
+              DAYS
+            </div>
+          </div>
 
-      {/* Vertical separator lines between timer sections */}
-      <div className="absolute left-[195px] top-[20px] w-[2px] h-[150px] bg-white/30"></div>
-      <div className="absolute left-[395px] top-[20px] w-[2px] h-[150px] bg-white/30"></div>
-      <div className="absolute left-[595px] top-[20px] w-[2px] h-[150px] bg-white/30"></div>
+          {/* Separator */}
+          <div className="w-px h-10 lg:h-12 bg-white/30"></div>
 
-      {/* Timer numbers */}
-      <div className="absolute left-[25px] top-[50px] w-[148px] h-[67px] text-white text-center font-cardo text-[96px] font-bold leading-[67px]">
-        {timeLeft.days}
-      </div>
-      <div className="absolute left-[244px] top-[50px] w-[99px] h-[67px] text-white text-center font-cardo text-[96px] font-bold leading-[67px]">
-        {timeLeft.hours}
-      </div>
-      <div className="absolute left-[445px] top-[50px] w-[99px] h-[67px] text-white text-center font-cardo text-[96px] font-bold leading-[67px]">
-        {timeLeft.minutes}
-      </div>
-      <div className="absolute left-[646px] top-[50px] w-[99px] h-[67px] text-white text-center font-cardo text-[96px] font-bold leading-[67px]">
-        {timeLeft.seconds}
-      </div>
+          {/* Hours */}
+          <div className="flex flex-col items-center flex-1">
+            <div className="text-white text-center font-cardo text-2xl lg:text-4xl font-bold leading-tight">
+              {timeLeft.hours.toString().padStart(2, "0")}
+            </div>
+            <div className="text-white/80 text-center font-inter text-xs lg:text-xs font-bold mt-0.5">
+              HOURS
+            </div>
+          </div>
 
-      {/* Timer labels */}
-      <div className="absolute left-[68px] top-[114px] w-[66px] h-[67px] text-white/70 text-center font-inter text-[24px] font-bold leading-[67px]">
-        DAYS
-      </div>
-      <div className="absolute left-[262px] top-[114px] w-[86px] h-[67px] text-white/80 text-center font-inter text-[24px] font-bold leading-[67px]">
-        HOURS
-      </div>
-      <div className="absolute left-[440px] top-[114px] w-[111px] h-[67px] text-white/80 text-center font-inter text-[24px] font-bold leading-[67px]">
-        MINUTES
-      </div>
-      <div className="absolute left-[637px] top-[114px] w-[119px] h-[67px] text-white/80 text-center font-inter text-[24px] font-bold leading-[67px]">
-        SECONDS
+          {/* Separator */}
+          <div className="w-px h-10 lg:h-12 bg-white/30"></div>
+
+          {/* Minutes */}
+          <div className="flex flex-col items-center flex-1">
+            <div className="text-white text-center font-cardo text-2xl lg:text-4xl font-bold leading-tight">
+              {timeLeft.minutes.toString().padStart(2, "0")}
+            </div>
+            <div className="text-white/80 text-center font-inter text-xs lg:text-xs font-bold mt-0.5">
+              MINUTES
+            </div>
+          </div>
+
+          {/* Separator */}
+          <div className="w-px h-10 lg:h-12 bg-white/30"></div>
+
+          {/* Seconds */}
+          <div className="flex flex-col items-center flex-1">
+            <div className="text-white text-center font-cardo text-2xl lg:text-4xl font-bold leading-tight">
+              {timeLeft.seconds.toString().padStart(2, "0")}
+            </div>
+            <div className="text-white/80 text-center font-inter text-xs lg:text-xs font-bold mt-0.5">
+              SECONDS
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

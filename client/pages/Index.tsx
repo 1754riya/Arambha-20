@@ -20,37 +20,37 @@ export default function Index() {
       <div className="absolute left-0 bottom-0 w-full h-64 bg-gradient-to-t from-black/90 to-transparent z-0" />
 
       {/* Container for all content */}
-      <div className="relative z-10 max-w-[1440px] mx-auto min-h-screen flex flex-col">
-        {/* Header Section */}
-        <header className="flex justify-between items-start p-4 lg:p-6">
+      <div className="relative z-10 w-full min-h-screen flex flex-col">
+        {/* Header Section - Compact */}
+        <header className="flex items-center p-2 lg:px-16 lg:py-2 mb-2 max-w-[1400px] mx-auto w-full">
           {/* Left Logo */}
-          <div className="relative">
-            <div className="absolute -top-8 right-12 lg:right-16 text-white font-inter text-xl lg:text-2xl font-medium">
+          <div className="relative flex-shrink-0">
+            <div className="absolute -top-4 right-8 text-white font-inter text-sm lg:text-lg font-medium">
               2K25
             </div>
-            <div className="text-5xl lg:text-[70px] font-hind font-semibold uppercase bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent leading-tight">
+            <div className="text-3xl lg:text-[42px] font-hind font-semibold uppercase bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent leading-tight">
               आरंभ
             </div>
-            <div className="text-white font-cardo text-xs font-bold mt-2">
-              (A Platform for rising Innovators)
+            <div className="text-white font-cardo text-xs font-bold mt-1">
+              (Platform for Innovators)
             </div>
           </div>
 
-          {/* Center Title */}
-          <div className="text-center flex-1 mx-8">
-            <div className="text-3xl lg:text-[40px] font-inter font-bold bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent">
+          {/* Center Title - Absolutely Centered */}
+          <div className="absolute left-1/2 transform -translate-x-1/2 text-center">
+            <div className="text-xl lg:text-[24px] font-inter font-bold bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent">
               AARAMBHA
             </div>
-            <div className="text-white font-cairo text-2xl lg:text-[40px] font-semibold uppercase mt-2">
+            <div className="text-white font-cairo text-base lg:text-[20px] font-semibold uppercase mt-1">
               BY IPS, IES
             </div>
-            <div className="text-white font-cardo text-lg lg:text-2xl font-bold mt-1">
+            <div className="text-white font-cardo text-sm lg:text-base font-bold mt-1">
               Quick links
             </div>
           </div>
 
           {/* Right Logo */}
-          <div className="w-20 h-20 lg:w-[131px] lg:h-[131px]">
+          <div className="w-16 h-16 lg:w-20 lg:h-20 ml-auto flex-shrink-0">
             <img
               className="w-full h-full rounded-full object-cover"
               src="https://cdn.builder.io/api/v1/image/assets%2F5746955424264108be8a3fee58eacc7d%2Fa1343e8c373344faacc4d6de3e7ff383?format=webp&width=800"
@@ -59,16 +59,16 @@ export default function Index() {
           </div>
         </header>
 
-        {/* Navigation Section */}
-        <nav className="relative mb-12 px-4">
+        {/* Navigation Section - Compact */}
+        <nav className="relative mb-2 px-3 max-w-[1400px] mx-auto w-full">
           {/* Navigation Line */}
           <div className="relative flex justify-center mb-2">
             <svg
-              width="995"
-              height="24"
+              width="700"
+              height="20"
               viewBox="0 0 995 24"
               fill="none"
-              className="max-w-full"
+              className="max-w-full scale-90"
             >
               <path
                 d="M0.452994 12L12 23.547L23.547 12L12 0.452994L0.452994 12ZM994.606 12L983.059 0.452994L971.512 12L983.059 23.547L994.606 12ZM12 12V14H983.059V12V10H12V12Z"
@@ -91,56 +91,56 @@ export default function Index() {
           </div>
 
           {/* Navigation Items positioned below the line */}
-          <div className="flex flex-wrap justify-center items-center gap-2 lg:gap-16 px-4 lg:px-8">
-            <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
+          <div className="flex flex-wrap justify-center items-center gap-3 lg:gap-10 px-2 lg:px-4 text-sm lg:text-base">
+            <div className="font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
               About Event
             </div>
-            <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
+            <div className="font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
               What you'll get
             </div>
-            <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
+            <div className="font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
               Eligibility & Program Fee
             </div>
-            <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
+            <div className="font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
               Selection Process
             </div>
-            <div className="text-sm lg:text-xl font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
+            <div className="font-bold font-inter bg-gradient-to-r from-[#EDCD4B] via-[#D08625] to-[#EDCD4B] bg-clip-text text-transparent whitespace-nowrap">
               Deadlines
             </div>
           </div>
         </nav>
 
-        {/* Main Content */}
-        <div className="flex-1 flex flex-col justify-center items-center text-center px-4 lg:px-8">
+        {/* Main Content - Centered and Compact */}
+        <div className="flex-1 flex flex-col justify-center items-center text-center px-4 lg:px-16 py-2 max-w-[1400px] mx-auto w-full">
           {/* Subtitle */}
-          <div className="text-white font-cardo text-xl lg:text-[32px] font-bold leading-tight mb-8 max-w-4xl">
+          <div className="text-white font-cardo text-base lg:text-lg font-bold leading-tight mb-3 max-w-2xl">
             EXPERIENCE HOW IT FEELS TO START-UP WHILE YOU ARE STILL IN SCHOOL.
           </div>
 
           {/* Main Title */}
-          <div className="text-4xl lg:text-[64px] font-cardo font-bold leading-tight bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent mb-8">
+          <div className="text-2xl lg:text-[32px] font-cardo font-bold leading-tight bg-gradient-to-r from-[#D08625] via-[#EDCD4B] to-[#D08625] bg-clip-text text-transparent mb-3">
             YOUNG ENTREPRENEURS'
             <br />
             BOOTCAMP
           </div>
 
           {/* Register Button */}
-          <div className="relative mb-12">
-            <button className="px-8 py-3 lg:px-12 lg:py-4 rounded-lg bg-gradient-to-r from-[#805500] to-[#662200] shadow-[0_12px_24px_0_rgba(46,32,5,0.20)] backdrop-blur-[25px] text-white font-cardo text-lg lg:text-2xl font-bold tracking-wider">
+          <div className="relative mb-3">
+            <button className="px-6 py-2 lg:px-8 lg:py-3 rounded-lg bg-gradient-to-r from-[#805500] to-[#662200] shadow-[0_12px_24px_0_rgba(46,32,5,0.20)] backdrop-blur-[25px] text-white font-cardo text-base lg:text-lg font-bold tracking-wider">
               Register Now
             </button>
 
-            {/* Decorative lines */}
-            <div className="absolute left-[-75px] top-1/2 transform -translate-y-1/2 hidden lg:block">
-              <svg width="56" height="4" viewBox="0 0 56 4" fill="none">
+            {/* Decorative lines - smaller */}
+            <div className="absolute left-[-50px] top-1/2 transform -translate-y-1/2 hidden lg:block">
+              <svg width="40" height="3" viewBox="0 0 56 4" fill="none">
                 <path
                   d="M56.0089 0C56.0089 1.33333 56.0089 2.66667 56.0089 4C55.0754 3.96667 54.1419 3.93333 53.2085 3.9C36.4058 3.3 19.6031 2.7 2.80043 2.1C1.86694 2.06667 0.933467 2.03333 -1.52588e-05 2C0.933467 1.96667 1.86694 1.93333 2.80043 1.9C19.6031 1.3 36.4058 0.7 53.2085 0.1C54.1419 0.0666667 55.0754 0.0333333 56.0089 0Z"
                   fill="#EDCD4B"
                 />
               </svg>
             </div>
-            <div className="absolute right-[-75px] top-1/2 transform -translate-y-1/2 hidden lg:block">
-              <svg width="56" height="4" viewBox="0 0 56 4" fill="none">
+            <div className="absolute right-[-50px] top-1/2 transform -translate-y-1/2 hidden lg:block">
+              <svg width="40" height="3" viewBox="0 0 56 4" fill="none">
                 <path
                   d="M0 0C0 1.33333 0 2.66667 0 4C0.933482 3.96667 1.86696 3.93333 2.80045 3.9C19.6031 3.3 36.4058 2.7 53.2085 2.1C54.142 2.06667 55.0754 2.03333 56.0089 2C55.0754 1.96667 54.142 1.93333 53.2085 1.9C36.4058 1.3 19.6031 0.7 2.80045 0.1C1.86696 0.0666667 0.933482 0.0333333 0 0Z"
                   fill="#EDCD4B"
@@ -149,42 +149,48 @@ export default function Index() {
             </div>
           </div>
 
-          {/* Countdown Timer */}
-          <div className="w-full max-w-4xl mb-8">
+          {/* Countdown Timer - Centered */}
+          <div className="w-full flex justify-center mb-2">
             <CountdownTimer targetDate={eventDate} />
           </div>
         </div>
 
-        {/* Footer - Event Details */}
-        <footer className="mt-auto pb-8 lg:pb-12">
-          <div className="flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-12 px-4">
+        {/* Footer - Event Details - Compact */}
+        <footer className="mt-auto pb-2 lg:pb-3">
+          <div className="flex flex-col lg:flex-row justify-center items-center gap-2 lg:gap-4 px-4 max-w-[1400px] mx-auto w-full">
             {/* Location */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3">
               <MapPin
-                className="w-8 h-8 lg:w-14 lg:h-14 text-[#D08625] flex-shrink-0"
+                className="w-5 h-5 lg:w-6 lg:h-6 text-[#D08625] flex-shrink-0"
                 strokeWidth={1.5}
               />
-              <div className="text-white font-inter text-lg lg:text-2xl font-bold">
+              <div className="text-white font-inter text-xs lg:text-sm font-bold">
                 IPS Academy, A.B Road, Rajendra Nagar, Indore (M.P)
               </div>
             </div>
 
             {/* Date */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3">
               <Calendar
-                className="w-8 h-8 lg:w-14 lg:h-14 text-[#D08625] flex-shrink-0"
+                className="w-5 h-5 lg:w-6 lg:h-6 text-[#D08625] flex-shrink-0"
                 strokeWidth={1.5}
               />
-              <div className="text-white font-inter text-lg lg:text-2xl font-bold">
+              <div className="text-white font-inter text-xs lg:text-sm font-bold">
                 9th-11th Sep 2025
               </div>
             </div>
           </div>
         </footer>
 
-        {/* Side Badges */}
-        <div className="absolute left-0 top-1/2 transform -translate-y-1/2 hidden lg:block">
-          <svg width="57" height="398" viewBox="0 0 57 398" fill="none">
+        {/* Side Badges - Touch Screen Edges */}
+        <div className="fixed left-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20 h-[280px]">
+          <svg
+            width="55"
+            height="280"
+            viewBox="0 0 57 398"
+            fill="none"
+            className="h-full w-full"
+          >
             <path d="M0 0L57 26V373L0 398V0Z" fill="url(#paint0_radial_left)" />
             <defs>
               <radialGradient
@@ -200,13 +206,19 @@ export default function Index() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="absolute left-[-120px] top-[180px] w-[313px] h-[47px] transform -rotate-90 text-black text-center font-inter text-2xl lg:text-[32px] font-bold leading-[47px]">
-            Prize Pool: 1,35,000
+          <div className="absolute left-[-95px] top-[125px] w-[220px] h-[35px] transform -rotate-90 text-black text-center font-inter text-base font-bold leading-[35px]">
+            Prize Pool: ₹1,35,000
           </div>
         </div>
 
-        <div className="absolute right-0 top-1/2 transform -translate-y-1/2 hidden lg:block">
-          <svg width="57" height="398" viewBox="0 0 57 398" fill="none">
+        <div className="fixed right-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20 h-[280px]">
+          <svg
+            width="55"
+            height="280"
+            viewBox="0 0 57 398"
+            fill="none"
+            className="h-full w-full"
+          >
             <path
               d="M57 0L0 26V373L57 398V0Z"
               fill="url(#paint0_radial_right)"
@@ -225,7 +237,7 @@ export default function Index() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="absolute left-[-140px] top-[180px] w-[342px] h-[47px] transform rotate-90 text-black text-center font-inter text-xl lg:text-[28px] font-bold leading-[47px]">
+          <div className="absolute left-[-95px] top-[125px] w-[220px] h-[35px] transform rotate-90 text-black text-center font-inter text-base font-bold leading-[35px]">
             Inter School Competition
           </div>
         </div>
