@@ -48,14 +48,12 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
     <div className="w-full max-w-[380px] mx-auto relative">
       {/* Timer container with backdrop blur */}
       <div className="rounded-lg border border-white/50 bg-black/10 shadow-[0_8px_16px_0_rgba(0,0,0,0.20)] backdrop-blur-[25px] p-2 lg:p-3">
-
         {/* Timer Display - Flexbox layout for responsiveness */}
         <div className="flex justify-between items-center gap-2 lg:gap-4">
-
           {/* Days */}
           <div className="flex flex-col items-center flex-1">
             <div className="text-white text-center font-cardo text-2xl lg:text-4xl font-bold leading-tight">
-              {timeLeft.days.toString().padStart(2, '0')}
+              {timeLeft.days.toString().padStart(2, "0")}
             </div>
             <div className="text-white/70 text-center font-inter text-xs lg:text-xs font-bold mt-0.5">
               DAYS
@@ -68,7 +66,7 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
           {/* Hours */}
           <div className="flex flex-col items-center flex-1">
             <div className="text-white text-center font-cardo text-2xl lg:text-4xl font-bold leading-tight">
-              {timeLeft.hours.toString().padStart(2, '0')}
+              {timeLeft.hours.toString().padStart(2, "0")}
             </div>
             <div className="text-white/80 text-center font-inter text-xs lg:text-xs font-bold mt-0.5">
               HOURS
@@ -81,7 +79,7 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
           {/* Minutes */}
           <div className="flex flex-col items-center flex-1">
             <div className="text-white text-center font-cardo text-2xl lg:text-4xl font-bold leading-tight">
-              {timeLeft.minutes.toString().padStart(2, '0')}
+              {timeLeft.minutes.toString().padStart(2, "0")}
             </div>
             <div className="text-white/80 text-center font-inter text-xs lg:text-xs font-bold mt-0.5">
               MINUTES
@@ -94,13 +92,12 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
           {/* Seconds */}
           <div className="flex flex-col items-center flex-1">
             <div className="text-white text-center font-cardo text-2xl lg:text-4xl font-bold leading-tight">
-              {timeLeft.seconds.toString().padStart(2, '0')}
+              {timeLeft.seconds.toString().padStart(2, "0")}
             </div>
             <div className="text-white/80 text-center font-inter text-xs lg:text-xs font-bold mt-0.5">
               SECONDS
             </div>
           </div>
-
         </div>
       </div>
     </div>

@@ -184,7 +184,13 @@ export default function Index() {
 
         {/* Side Badges - Touch Screen Edges */}
         <div className="fixed left-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20 h-[280px]">
-          <svg width="55" height="280" viewBox="0 0 57 398" fill="none" className="h-full w-full">
+          <svg
+            width="55"
+            height="280"
+            viewBox="0 0 57 398"
+            fill="none"
+            className="h-full w-full"
+          >
             <path d="M0 0L57 26V373L0 398V0Z" fill="url(#paint0_radial_left)" />
             <defs>
               <radialGradient
@@ -206,7 +212,13 @@ export default function Index() {
         </div>
 
         <div className="fixed right-0 top-1/2 transform -translate-y-1/2 hidden lg:block z-20 h-[280px]">
-          <svg width="55" height="280" viewBox="0 0 57 398" fill="none" className="h-full w-full">
+          <svg
+            width="55"
+            height="280"
+            viewBox="0 0 57 398"
+            fill="none"
+            className="h-full w-full"
+          >
             <path
               d="M57 0L0 26V373L57 398V0Z"
               fill="url(#paint0_radial_right)"
